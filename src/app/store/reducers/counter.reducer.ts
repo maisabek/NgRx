@@ -34,7 +34,8 @@ export function counterReducer(state=initialState,action:any){
 // reducer ودى بديها اسم ال FeatureSelector عشان اعمل ال
 let counterFs=createFeatureSelector<Counter>("counter")
  /*
-    selector ==> اللى هو الجزء اللى انا محتاجاة  state وبترجع جزء من ال state فنكشن بتاخد ال
+    selector ==>
+    اللى هو الجزء اللى انا محتاجاة  state وبترجع جزء من ال state فنكشن بتاخد ال
      دة يرجعلى اية selector يعنى ببرمج ال
      selector عشان اعمل ال
 */

@@ -26,7 +26,6 @@ export class CounterComponent implements OnInit {
   ngOnInit(): void {}
   increase(){
   //  this.store.dispatch({type:'increament',payload:2})
-
   this.store.dispatch(new Increament(2))
   }
   decrease(){
